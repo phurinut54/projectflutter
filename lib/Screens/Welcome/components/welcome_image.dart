@@ -13,7 +13,7 @@ class WelcomeImage extends StatelessWidget {
     return Column(
       children: [
         Text(
-          "WELCOME TO EDU",
+          "Welcome To Micpoosoft",
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         SizedBox(height: defaultPadding * 2),
@@ -23,7 +23,7 @@ class WelcomeImage extends StatelessWidget {
             Expanded(
               flex: 8,
               child: SvgPicture.asset(
-                "assets/icons/chat.svg",
+                "assets/icons/microsoft.svg",
               ),
             ),
             Spacer(),

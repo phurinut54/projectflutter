@@ -69,7 +69,7 @@ class _LoginFormState extends State<LoginForm> {
             cursorColor: kPrimaryColor,
             onSaved: (email) {},
             decoration: const InputDecoration(
-              hintText: "Your username",
+              hintText: "Username",
               prefixIcon: Padding(
                 padding: const EdgeInsets.all(defaultPadding),
                 child: Icon(Icons.person),
@@ -89,7 +89,7 @@ class _LoginFormState extends State<LoginForm> {
                 }
               }),
               decoration: const InputDecoration(
-                hintText: "Your password",
+                hintText: "Password",
                 prefixIcon: Padding(
                   padding: const EdgeInsets.all(defaultPadding),
                   child: Icon(Icons.lock),
